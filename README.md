@@ -1,6 +1,6 @@
 # Lionic - Legal Services Landing Page
 
-![Lionic Preview](assets/lionic-preview.jpg)
+![Lionic Preview](img/lionic-preview.jpg)
 
 > **"This is simply a smarter way to make your legal online."**
 
