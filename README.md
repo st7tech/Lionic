@@ -20,4 +20,4 @@
 ## 🚀 Как использовать
 1. Клонировать репозиторий:
    ```bash
-   git clone https://github.com/SharifZaebal/lionic-legal-landing.git
+   git clone https://github.com/SharifZaebal/lionic-responsive-legal.git 
