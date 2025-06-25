@@ -1,0 +1,167 @@
+/* Default style start */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 1200px;
+    font-family: 'font', sans-serif;
+}
+
+/* Default style end */
+
+/* Global style start */
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.section-descr {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.section-offset {
+    padding-top: 87px;
+    padding-bottom: 160px;
+}
+
+/* Global style end */
+
+
+
+/* Header section start */
+
+.header {
+    padding: 36px 0;
+}
+
+.header-container {
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-nav {
+    margin-right: 52px;
+}
+
+.header-list-item:not(:last-child) {
+    margin-right: 52px;
+}
+
+/* Header section end */
+
+/* Hero section start */
+
+.hero {
+    padding-top: 113px;
+    padding-bottom: 134px;
+}
+
+.hero-content {
+    max-width: 50%;
+
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-title {
+    margin: 0;
+    margin-bottom: 26px;
+}
+
+.hero-descr {
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+.hero-btn {
+    margin-bottom: 14px;
+}
+
+/* Hero section end */
+
+/* Services section start */
+
+.services-title {
+    text-align: center;
+}
+
+.section-descr {
+    text-align: center;
+}
+
+.services-list {
+    flex-wrap: wrap;
+}
+
+.services-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 61px 30px;
+    width: 270px;
+    outline: 1px solid red;
+    margin-right: 30px;
+}
+.services-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.services-item-icon {
+    margin-bottom: 28px;
+}
+
+.services-item-title {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.services-item-descr {
+    margin: 0;
+    text-align: center;
+}
+
+/* Services section end */
