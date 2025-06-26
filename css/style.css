@@ -165,3 +165,138 @@ body {
 }
 
 /* Services section end */
+
+/* Article section start */
+
+.artiles-list {
+    flex-wrap: wrap;
+}
+
+.articles-item {
+    width: 570px;
+    margin-bottom: 30px;
+    outline: 1px solid coral;
+}
+
+.articles-item:not(:nth-child(2n)) {
+    margin-right: 30px;
+}
+
+.blog-preview-image {
+    object-fit: cover;
+}
+
+.blog-preview-text {
+    padding-top: 24px;
+    padding-left: 30px;
+}
+
+.blog-preview-time {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.blog-preview-title {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.blog-preview-descr {
+    margin: 0;
+}
+
+/* Article section start */
+
+/* Clients section start */
+
+.clients-item {
+    width: 370px;
+    padding: 50px 35px 30px 35px;
+    flex-direction: column;
+
+    outline: 1px solid coral;
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-item-descr {
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.clients-user {
+    margin-top: auto;
+    align-items: center;
+}
+
+.clients-avatart {
+    flex-shrink: 0;
+    width: 67px;
+    margin-right: 17px;
+}
+
+.clients-name {
+    margin-bottom: 5px;
+}
+
+/* Clients section end */
+
+/* Contacts section start */
+
+.contacts-address {
+    font-style: normal;
+}
+
+.contacts-item {
+    flex-direction: column;
+    width: 370px;
+    outline: 1px solid coral;
+}
+.contacts-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.contacts-item-caption {
+    margin-bottom: 30px;
+}
+
+.contacts-item-text {
+    margin: 0;
+}
+
+.contacts-item-link:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+/* Contacts section end */
+
+/* Footer section start */
+
+.footer {
+    padding: 45px 0;
+}
+
+.footer-container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left {
+    align-items: center;
+}
+
+.footer-logo {
+    margin-right: 25px;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-right: 28px;
+}
+
+.footer-nav {
+    margin-right: 55px;
+}
+
+/* Footer section end */
