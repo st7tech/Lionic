@@ -369,7 +369,70 @@
       <!-- Section contacts end -->
 
       <!-- Section join-us start -->
-      <!-- <section class="join-us" id="join-us"></section> -->
+      <section class="join-us section-offset" id="join-us">
+        <div class="container">
+          <h2 class="section-title join-us-title">Join&nbsp;us</h2>
+          <p class="section-descr join-us-descr">
+            Take control of&nbsp;your paid subscriptions today!
+          </p>
+          <form
+            action="https://jsonplaceholder.typicode.com/posts"
+            method="post"
+            class="form"
+          >
+            <div class="form-top flex">
+              <div class="form-left flex">
+                <input
+                  class="form-input"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  class="form-input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+                <input
+                  class="form-input"
+                  type="tel"
+                  name="phone"
+                  placeholder="phone"
+                  required
+                />
+                <select class="form-select" name="coutry">
+                  <option value="Сountry" disabled selected>Сountry</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="United States">United States</option>
+                  <option value="France">France</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Estonia">Estonia</option>
+                </select>
+              </div>
+              <div class="form-right">
+                <textarea
+                  name="comment"
+                  placeholder="Comment"
+                  class="form-textarea"
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-bottom flex">
+              <div class="form-wrapper flex">
+                <button class="btn form-btn btn-reset">GET STARTED</button>
+                <label class="form-check">
+                  <input type="checkbox" required class="input-chek"/>
+                  I&nbsp;agree with the  <a href="#"> user agreement</a>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
       <!-- Section join-us end -->
     </main>
     <!-- Main section end -->
@@ -393,10 +456,14 @@
                 <a href="#" target="_blank" class="footer-link">Contact Us</a>
               </li>
               <li class="footer-nav-item">
-                <a href="#" target="_blank" class="footer-link">Privacy Policy</a>
+                <a href="#" target="_blank" class="footer-link"
+                  >Privacy Policy</a
+                >
               </li>
               <li class="footer-nav-item">
-                <a href="#" target="_blank" class="footer-link">Terms Condition</a>
+                <a href="#" target="_blank" class="footer-link"
+                  >Terms Condition</a
+                >
               </li>
             </ul>
           </nav>

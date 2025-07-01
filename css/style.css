@@ -466,6 +466,105 @@ body {
 
 /* Contacts section end */
 
+/* Join us section start */
+
+.join-us {
+  border-bottom: 1px solid #DADADA;
+}
+
+.join-us-title {
+  text-align: center;
+}
+
+.join-us-descr {
+  margin-bottom: 30px;
+}
+
+.form {
+  padding: 0 55px;
+}
+
+.form-top {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-left {
+  width: 49%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-right {
+  width: 49%;
+}
+
+.form-input {
+  border: 1px solid #dadada;
+  padding: 15px 28px;
+  border-radius: 50px;
+
+  width: 251px;
+  height: 60px;
+}
+.form-input:nth-child(-n + 2) {
+  margin-bottom: 19px;
+}
+
+.form-select {
+  border: 1px solid #dadada;
+  padding: 15px 28px;
+  border-radius: 50px;
+  width: 251px;
+  height: 60px;
+}
+
+.form-textarea {
+  padding: 15px 28px;
+  border: 1px solid #dadada;
+  border-radius: 20px;
+
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+
+.form-bottom {
+  justify-content: flex-end;
+}
+
+.form-wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-btn {
+  margin-bottom: 10px;
+  padding: 20px 67px;
+
+  border-radius: 50px;
+
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.form-check {
+  font-size: 12px;
+  line-height: 1px;
+  color: #787878;
+}
+
+.input-chek {
+  margin-right: 8px;
+}
+
+.form-check a {
+  color: #3172B9;
+  text-decoration: underline;
+}
+
+/* Join us section end */
+
 /* Footer section start */
 
 .footer {
@@ -521,13 +620,13 @@ body {
 }
 
 .social-icon-tw {
-  background-image: url('/img/twitter.svg');
+  background-image: url("/img/twitter.svg");
 }
 .social-icon-linkedin {
-  background-image: url('/img/in.svg');
+  background-image: url("/img/in.svg");
 }
 .social-icon-email {
-  background-image: url('/img/email-footer.svg');
+  background-image: url("/img/email-footer.svg");
 }
 
 /* Footer section end */
